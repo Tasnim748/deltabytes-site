@@ -1453,9 +1453,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .site-logo {
     display: block;
     background-image: url('../images/deltabytes_logo.png');
-    background-size: contain;
+    background-size: cover;
     width: 290px;
-    aspect-ratio: 6.45;
+    aspect-ratio: 6.5;
 }
 
 
@@ -1669,6 +1669,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     display: table;
     background-size: contain;
+}
+
+.s-privacy-policy {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .shadow-overlay {

@@ -1671,7 +1671,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background-size: contain;
 }
 
-.s-privacy-policy {
+.s-privacy-policy-and-terms {
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -1977,6 +1977,9 @@ html.no-csstransitions .home-content__main {
     .header-custom-container {
         max-width: 1000px;
     }
+    .s-privacy-policy-and-terms {
+        max-width: 1000px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1987,6 +1990,9 @@ html.no-csstransitions .home-content__main {
         max-width: 800px;
     }
     .header-custom-container {
+        max-width: 800px;
+    }
+    .s-privacy-policy-and-terms {
         max-width: 800px;
     }
 }
@@ -2005,6 +2011,9 @@ html.no-csstransitions .home-content__main {
     }
     .header-custom-container {
         max-width: 680px;
+    }
+    .s-privacy-policy-and-terms {
+        max-width: 600px;
     }
 
     .site-logo {
@@ -2026,6 +2035,9 @@ html.no-csstransitions .home-content__main {
     .header-custom-container {
         max-width: 550px;
     }
+    .s-privacy-policy-and-terms {
+        max-width: 550px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -2033,6 +2045,9 @@ html.no-csstransitions .home-content__main {
         max-width: 490px;
     }
     .home-content__main {
+        max-width: 490px;
+    }
+    .s-privacy-policy-and-terms {
         max-width: 490px;
     }
     .home-content__buttons {
@@ -2082,6 +2097,9 @@ html.no-csstransitions .home-content__main {
     .s-header {
         padding: 0 3%;
     }
+    .s-privacy-policy-and-terms {
+        padding: 0 3%;
+    }
 
     .site-logo {
         width: 200px;
@@ -2116,11 +2134,17 @@ html.no-csstransitions .home-content__main {
     .home-social {
         display: none;
     }
+    .s-privacy-policy-and-terms {
+        padding: 0 3%;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .home-content h1 {
         font-size: 3.3rem;
+    }
+    .s-privacy-policy-and-terms {
+        padding: 0 3%;
     }
 }
 
@@ -2134,6 +2158,9 @@ html.no-csstransitions .home-content__main {
     .home-content__main {
         padding-top: 16.2rem;
         width: auto;
+    }
+    .s-privacy-policy-and-terms {
+        padding: 0 3%;
     }
 }
 
